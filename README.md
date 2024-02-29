@@ -14,3 +14,18 @@ Blog website progress:
  Jumped back to the front end. Navigation bar is done. all routes of front end works fine. Search bar doesn't work but will get it done 
  after Redux toolkit is implemented. Signing up section is in progress. There is little bug when it gets seen by big screen, Sign Up form
  look small. And it is not connected to the backend yet. 
+
+
+##Day 2 
+
+  Implemented Footer for the client website. This Flowbite UI component is super strong, so you can just calls like Footer.Collapse Footer.Link etc and it works perfectly.
+  Also connected Sign up and Sign in from back end to the front end. It works fine.
+  In Sign In part I used JWT Web token for authentication part and it would find email that matches you account then compare your bscryptjs hashed password with your account password if its true it will generate token from jwt and you'll get to access to the website with your login info. 
+  
+  Client side of Sign in component is pretty similar as sign up components. 
+
+##Day 3
+
+  Implemented Redux toolkit (Global state management) and used redux persist (will keep your information
+  in your localstorage) to keep our login information even after website refreshes, it will remain logs in. With help of Redux toolkit I don't have to use useState instead I initialized global state management so I it can be controlled easily and globally. 
+  
