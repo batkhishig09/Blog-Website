@@ -29,3 +29,7 @@ Blog website progress:
   Implemented Redux toolkit (Global state management) and used redux persist (will keep your information
   in your localstorage) to keep our login information even after website refreshes, it will remain logs in. With help of Redux toolkit I don't have to use useState instead I initialized global state management so I it can be controlled easily and globally. 
   
+
+ ##Day 4
+
+  Made dashboard in private. If not signed in user try to access to the dashboard componant it will not work. Used PrivateRoute.jsx and wrapped Dashboard components on it.
